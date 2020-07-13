@@ -1,0 +1,13 @@
+.randomquote {
+    text-shadow: 1px 0px 10px #757575;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 3pt;
+    word-spacing: 4pt;
+    font-size: 26px;
+    text-align: left;
+    font-family: trebuchet ms;
+    line-height: 1;
+    margin: 30px;
+    padding: 5px;
+}

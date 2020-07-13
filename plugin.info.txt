@@ -1,0 +1,7 @@
+base   randomquote
+author Ingo Kleiber
+email  ingo@kleiber.me
+date   2020-07-13
+name   randomquote
+desc   This plugin shows a random quote from a list of quotes.
+url    http://kleiber.me
