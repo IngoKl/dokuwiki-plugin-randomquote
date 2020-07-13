@@ -61,7 +61,7 @@ class syntax_plugin_randomquote extends DokuWiki_Syntax_Plugin {
      */
     public function render($mode, Doku_Renderer $renderer, $data) {
         if($mode != 'xhtml') return false;
-        $quotes = file('./lib/plugins/randomquote/quotes.txt', FILE_IGNORE_NEW_LINES)
+        $quotes = file('./lib/plugins/randomquote/quotes.txt', FILE_IGNORE_NEW_LINES);
 
         $renderer->doc .= '<div class="randomquote">"'.$quotes[rand(0,sizeof($quotes)-1)].'"</div>';
         return true;
